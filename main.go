@@ -82,6 +82,6 @@ func main() {
 
 func getHome(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "welcome",
+		"message": "welcome user",
 	})
 }
